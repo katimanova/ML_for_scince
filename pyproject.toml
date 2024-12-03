@@ -7,8 +7,8 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.10"
-pandas = "^2.2.3"
-numpy = "^2.1.2"
+pandas = "<2.2.0"
+numpy = "<1.23.0"
 seaborn = "^0.13.2"
 plotly = "^5.24.1"
 nbformat = "^5.10.4"
@@ -17,6 +17,11 @@ scikit-learn = "^1.5.2"
 phik = "^0.12.4"
 sweetviz = "^2.3.1"
 ace-tools = "^0.0"
+optuna = "^4.1.0"
+llvmlite = "*"
+shap = "^0.41.0"
+graphviz = "^0.20.3"
+supertree = "^0.5.4"
 
 
 [build-system]
